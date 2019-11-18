@@ -244,7 +244,7 @@ public class DetectorActivity extends CameraActivity implements OnImageAvailable
                 String Extra=" at ";
                // finding centroid
 
-                float centroid_x=Math.abs(location.right-location.left)/2;
+                float centroid_x=Math.abs(location.right-location.left)/2 + location.left;
                 float centroid_y=Math.abs(location.bottom-location.top)/2;
 
 
