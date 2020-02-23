@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'de.undercouch.download'
 
+
 android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
@@ -42,4 +43,5 @@ dependencies {
     implementation 'androidx.coordinatorlayout:coordinatorlayout:1.0.0'
     implementation 'com.google.android.material:material:1.0.0'
     implementation 'org.tensorflow:tensorflow-lite:0.0.0-nightly'
+
 }
